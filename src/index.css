@@ -1,0 +1,236 @@
+:root {
+  /* Text Colors */
+  --text-primary: #343434;
+  --text-secondary: #707070;
+  --text-disabled: #d9d9d9;
+
+  /* Primary Theme */
+  --main-primary: #D42028;
+
+  /* Error Colors */
+  --error-primary: #FF5A4F;
+  --error-dark: #DB393D;
+  --error-light: #FF8E7A;
+
+  /* Warning Colors */
+  --warning-main: #FFCC00;
+  --warning-dark: #DBAA00;
+  --warning-light: #FFDC3F;
+
+  /* Info Colors */
+  --info-main: #0ACEFF;
+  --info-dark: #07A1DB;
+  --info-light: #47E7FF;
+
+  /* Success Colors */
+  --success-main: #3C9A03;
+  --success-dark: #309B32;
+  --success-light: #7ED26F;
+}
+
+.content-container{
+  color: var(--text-primary) !important;
+}
+
+.navbar {
+  height: 95px;
+  border: 2px solid green;
+}
+
+.logo-image {
+  width: 94px;
+  height: 55px;
+
+}
+
+.logo-tel {
+  color: var(--main-primary) !important;
+}
+
+.nav-icons {
+  width: 180px;
+  height: 40px;
+}
+
+.hero-container {
+  height: 775px;
+  color: #5f5e5e;
+}
+
+
+.input-form-container {
+  width: 343px;
+  height: 548px;
+  position: relative;
+  top: -35%;
+  left: 4%;
+  z-index: 10;
+  border-radius: 12px;
+  background-color: #fff;
+  padding: 24px;
+  gap: 24px;
+
+}
+
+.search-btn{
+  background-color: var(--main-primary) !important;
+}
+
+.action-btn{
+  background: white;
+  border: 1px solid var(--text-secondary);
+  border-radius: 1000px;
+  font-weight: 400;
+  font-size: medium;
+  
+}
+.action-btn-type{
+  color: var(--main-primary);
+}
+
+.search-vehicles{
+  overflow-x: hidden;
+}
+
+.vehicles-container{
+width :343px;
+height: 592px;
+z-index: 100;
+}
+
+.vehicle{
+  width: 113px;
+height: 112px; 
+border-radius: 12px;
+border : 1px solid #ddd;
+}
+
+.rounded-bottom{
+ width: 599px;
+ height: 90px;
+  position: relative ;
+  bottom: 50px;
+  border-radius: 100% !important;
+  right: 28%;
+  border-bottom: 1px solid #ddd;
+  overflow-x: hidden;
+}
+
+.new-arrivals{
+  overflow-x: hidden;
+}
+
+.card-container{
+  scroll-behavior: smooth;
+  width: 3433px;
+}
+
+.card-container::-webkit-scrollbar {
+  display: none;                 /* Chrome, Safari, Edge */
+}
+
+.card{
+  width: 236px;
+}
+
+.carousel-control-prev{
+  height: fit-content;
+    width: fit-content;
+   
+}
+.carousel-control-next{
+   height: fit-content;
+    width: fit-content;
+   
+}
+
+.achievements{
+  background-color: var(--text-primary);
+}
+
+.achievement-card{
+  width: 167.5px;
+  height: 92px;
+  background-color: var(--text-primary);
+  border: 2px solid rgb(49, 47, 47)
+}
+
+.vehicle-price{
+  color: var(--success-main);
+
+}
+
+
+.step-1 .rounded-circle{
+  width: 80px;
+  height: 80px;
+}
+
+.step-1 .rounded-circle span{
+  color: var(--main-primary);
+  font-size: 48px;
+  
+}
+
+.step > span{
+  width: 90%;
+}
+.step .arc-left{
+  left: 0; 
+  bottom: -40px;
+}
+
+.step .arc-right{
+  right: 0; 
+  bottom: -40px;
+}
+
+/* 
+
+.container {
+  width: 1000px;
+  height: 7000px;
+  background-color: var(--text-secondary);
+
+} 
+
+.box {
+  width: 300px;
+  height: 400px;
+}
+
+.box1 {
+  background-color: green;
+}
+
+.box2 {
+  background-color: yellow;
+  position: relative;
+  top: -200px;
+  z-index: 10;
+} */
+
+
+
+.width-fit-content{
+  width: fit-content;
+}
+.secondary-button{
+  border: 1px solid var(--main-primary);
+  border-radius: 5px;
+  font-size: large;
+  font-weight: 600;
+  color: var(--main-primary);
+  padding: 10px 14px;
+  background-color: white;
+}
+
+.rounded-primary-button{
+  background: var(--main-primary);
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
